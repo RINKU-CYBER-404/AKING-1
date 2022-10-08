@@ -5,6 +5,7 @@ from os import path,system
 arch=uname().machine.lower()
 if "aarch" in arch:
     arch="aarch"
+    print('033[1;32m\nBypass By Rinku')
     print('\033[1;32m\nCongratulatings! Your Deviec Support This Tools');time.sleep(1)
 else:
     print('\033[1;31mSorry System not support this tools');sys.exit()
